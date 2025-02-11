@@ -412,13 +412,13 @@ flex-direction: column;
     gap:5px;
 }
 .abt_txt ul li{
-    width:350px;
-    height:70px;
+    width:300px;
+    height:90px;
     margin:10px;
     margin-left:-15px;
     border-radius:8px;
     background-color: #f3f4f5;
-    font-size: 14px;
+    font-size: 13px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
