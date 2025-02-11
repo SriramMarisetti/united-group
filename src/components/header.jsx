@@ -1,6 +1,6 @@
 import React from 'react';
 import './components.css';
-import united_group_transparent_logo from './Assets/united_group_transparent_logo.png';
+import united_only_group_logo from './Assets/united-only-group-logo.png';
 import { NavLink } from "react-router";
 import { LiaDownloadSolid } from "react-icons/lia";
 import { FaLocationDot } from "react-icons/fa6";
@@ -29,7 +29,7 @@ function Header() {
       (<header className='header'>
       <div className='logo'>
       <NavLink to='/' className="navlink_logo">
-          <img src={united_group_transparent_logo} alt="Logo"  /> UNITED GROUP
+          <img src={united_only_group_logo} alt="Logo"  /> UNITED GROUP
         </NavLink> 
       </div>
       <div className='navlinks menu'>
