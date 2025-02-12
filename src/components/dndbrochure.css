@@ -55,6 +55,7 @@
   }
   
   */
+
   .form-container {
     background-color: white; /* White background for form container */
     height:400px;
@@ -69,6 +70,7 @@
     margin: 10px;
 }
 .form-container h1{
+    margin-top:20px;
     background-color: white;
     color:#161a53;
   }
@@ -121,6 +123,16 @@
 .dndbutton:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
+
+.form-container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  gap: 30px; /* Space between dropdowns */
+  width: 100%;
+}
+
 .form-container .slect_brand{
   position:absolute;
   left:20px;
