@@ -1263,17 +1263,36 @@ justify-content: space-around;
 .solbutton svg {
     font-size: 15px;
 }
+.solbutton {
+    width: 80%;
+    font-size: 12px;
+}
 
+.popup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 128, 0, 0.9);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    animation: fadeInOut 3s ease-in-out;
+}
 
-
-    .solbutton {
-        width: 80%;
-        font-size: 12px;
-    }
-
-    .popup {
-        font-size: 14px;
-    }
+/* Pop-up animation */
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    10% { opacity: 1; transform: translateY(0); }
+    90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(10px); }
+}
+}
 
 
   
