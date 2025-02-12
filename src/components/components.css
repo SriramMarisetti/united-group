@@ -589,7 +589,20 @@ form .solbutton{
   margin-right:7px;
 }
 
-
+.popup {
+    position: fixed;
+    background: #d3d3e0e6;
+    color: rgb(26, 25, 25);
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    z-index: 1000; /* Ensures it's above all elements */
+    animation: fadeInOut 3s ease-in-out;
+}
 
 /*multi step progress section*/
 .multistepprogress{
@@ -1171,74 +1184,58 @@ justify-content: space-around;
     }
 
 
-/* Main container */
-.getquotation {
-    width: 95%;
-    height: auto;
-    margin: 10px;
-}
+    .getquotation {
+        width: 95%;
+        height: auto;
+   
+        margin: 10px;
+    }
 
-/* Form container */
-.getquotation form {
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-    padding: 10px;
-}
+    .getquotation form {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
 
-/* Label */
-.label_name {
-    font-size: 24px;
-    margin-top: 5px;
-}
+    label {
+        font-size: 24px;
+        margin-top: 5px;
+    }
 
-/* Input fields */
-.name_input, .email_input {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-}
+    form .name_input,
+    form .email_input {
+        flex-direction: row;
+        width: 100%;
+    }
 
-.name_input svg, .email_input svg {
-    font-size: 24px;
-    margin-left: 10px;
-}
+    .name_input svg,
+    .email_input svg {
+        font-size: 24px;
+        margin-left: 10px;
+    }
 
-.name_input input, .email_input input {
-    padding: 12px;
-    font-size: 16px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
+    .name_input input,
+    .email_input input {
+        padding: 12px;
+        font-size: 16px;
+    }
 
-/* Submit button */
-.solbutton {
-    width: 30vw;
-    height: 40px;
-    font-size: 14px;
-    text-align: center;
-    gap: 3px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s;
-}
-
-.solbutton:hover {
-    background-color: #0056b3;
-}
-
-.solbutton svg {
-    font-size: 15px;
-}
+    form .solbutton {
+        width:30vw;
+        height: 30px;
+        font-size: 10px;
+        text-align: center;
+        gap: 3px; /* Ensures spacing between icon and text */
+    }
+    .solbutton svg {
+        font-size: 15px;
+    }
+    .popup {
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
 
 
