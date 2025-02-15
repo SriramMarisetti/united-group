@@ -1174,7 +1174,9 @@ justify-content: space-around;
         align-items: center; /* Centers content */
         gap: 20px; /* Adds spacing between items */
     }
-
+    .info_img .buying_info .paragraph p{
+        font-size: 10px;
+    }
 
     .getquotation {
         width:87%;
