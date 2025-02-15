@@ -29,7 +29,7 @@ function Header() {
       (<header className='header'>
       <div className='logo'>
       <NavLink to='/' className="navlink_logo">
-          <img src={united_only_group_logo} alt="Logo"  /> UNITED GROUP
+          <img src={united_only_group_logo} alt="Logo" style={{width: "100px"}} />
         </NavLink> 
       </div>
       <div className='navlinks menu'>

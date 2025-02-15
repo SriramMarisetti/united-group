@@ -33,8 +33,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
 
           <section className="records">
@@ -51,8 +51,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
           </div>
         </SwiperSlide>
@@ -72,8 +72,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
           {/* another one */}
           <section className="records">
@@ -90,8 +90,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
         </div>
         </SwiperSlide>
@@ -111,8 +111,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
           {/* another client */}
           <section className="records">
@@ -129,8 +129,8 @@ function Testimonial() {
             </div>
             <div className="message">
               <h4>UNITED GROUP is my go-to store for top-quality tools. They offer renowned brands like Bosch, Stihl, and Philips, with everything I need for civil work, carpentry, plumbing, and more. From breakers and drills to grinders and chainsaws, their range is unmatched. The after-sales repair service is excellent, ensuring my tools are always in perfect working condition...</h4>
+              <div className="ratings_others"><Ratings/> </div>
             </div>
-            <div className="ratings_others"><Ratings/> </div>
           </section>
         </div>
         </SwiperSlide>

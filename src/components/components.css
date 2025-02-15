@@ -3,6 +3,11 @@ text-decoration: none;
 list-style: none;
 margin:auto;
 }
+
+svg{
+    margin: 0px!important;
+}
+
 .header{
     width:99%;
     display: flex;
@@ -40,7 +45,7 @@ margin:auto;
 
 .logo img {
     width: 100%; /* Adjust width dynamically */
-    max-width: 70px; /* Restrict max width */
+    max-width: 170px; /* Restrict max width */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Prevent cropping */
     background-color: white;
@@ -386,7 +391,6 @@ flex-direction: column;
     margin-right:10px;
     background-color: white;
     color: black;
-    height:350px;
     border-radius: 20px;
 }
 .abt_title h1{

@@ -21,7 +21,7 @@ export default function TextRating() {
   const value = 0;
 
   return (
-    <Box sx={{ width: 400, display: 'flex', alignItems: 'center', justifyContent:'space-around', background:'white' }} className="star_rating">
+    <Box sx={{ width: 200, display: 'flex', alignItems: 'center', justifyContent:'space-around', background:'white' }} className="star_rating">
       <Rating
         name="text-feedback"
         value={value}
