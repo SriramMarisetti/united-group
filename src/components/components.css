@@ -262,7 +262,7 @@ flex-direction: column;
     height:auto;
     background-color: white;
     color:black;
-    margin-bottom:20px;
+    margin-bottom:30px;
 }
 .banner_title h1{
     color:#161a53;
@@ -758,7 +758,7 @@ form .solbutton {
     color:#ffffff;
     font-weight: normal;
     width:fit-content;
-    padding:20px;
+    padding:10px;
     border-radius:15px;
     text-align: left;
     display: flex;
