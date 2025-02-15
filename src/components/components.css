@@ -286,6 +286,7 @@ flex-direction: column;
     gap:20px;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .united_cologo .cologs{
     width:304px;
@@ -381,7 +382,6 @@ flex-direction: column;
 }
 .about_us .abt_title{
     margin-top:15px;
-    margin-left:15px;
     margin-right:10px;
     background-color: white;
     color: black;
@@ -394,11 +394,13 @@ flex-direction: column;
     font-weight:bold;
     font-size: 40px;
     margin-top:15px;
+    margin-left: 10px;
 }
 .abt_title h2{
     background-color: white;
     color: #161a53;
     margin-top:0px;
+    margin-left: 10px;
 }
 .abt_title h2 b{
     background-color: white;
@@ -757,8 +759,8 @@ form .solbutton {
     color:#ffffff;
     font-weight: normal;
     width:fit-content;
-    padding:3px;
-    border-radius:100px;
+    padding:5px;
+    border-radius:20px;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -779,7 +781,7 @@ form .solbutton {
     font-weight: normal;
     width:fit-content;
     padding:3px;
-    border-radius:100px;
+    border-radius:30px;
     text-align: left;
     display: flex;
     justify-content: center;
