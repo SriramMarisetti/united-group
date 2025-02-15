@@ -1449,7 +1449,7 @@ justify-content: space-around;
         }
     
         .info_img .buying_info .paragraph p {
-            width: 100%; /* Ensure full width */
+            width:auto; /* Ensure full width */
             font-size: 12px; /* Slightly reduce font size */
             padding: 8px; /* Increase padding for better spacing */
             border-radius: 15px; /* Ensure consistent rounded corners */
@@ -1458,7 +1458,7 @@ justify-content: space-around;
     
         .info_img .buying_info .paragraph p:nth-child(odd),
         .info_img .buying_info .paragraph p:nth-child(even) {
-            width: 100%; /* Full width for better alignment */
+            width:auto; /* Full width for better alignment */
             display: flex;
             justify-content: center;
             align-items: center;
