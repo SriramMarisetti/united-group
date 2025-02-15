@@ -9,7 +9,7 @@ margin:auto;
     gap:8px;
     align-items: center;
     background-color: white;
-    height:80px;
+    height:auto;
     flex-direction: row;
     border-radius: 10px;
     margin-top:8px;
