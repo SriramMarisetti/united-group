@@ -1445,6 +1445,8 @@ justify-content: space-around;
                 height: auto; /* Allow dynamic height */
                 margin-left: auto;
                 margin-right: auto;
+                margin-top:5px;
+                margin-bottom: 5px;
                 gap: 10px; /* Increase gap for better spacing */
             }
         
