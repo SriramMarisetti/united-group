@@ -1446,7 +1446,7 @@ justify-content: space-around;
             }
         
             .info_img .buying_info .paragraph p {
-                width:;auto /* Ensure full width */
+                width:auto; /* Ensure full width */
                 font-size: 12px; /* Slightly reduce font size */
                 padding: 8px; /* Increase padding for better spacing */
                 border-radius: 15px; /* Ensure consistent rounded corners */
