@@ -55,7 +55,6 @@
   }
   
   */
-
   .form-container {
     background-color: white; /* White background for form container */
     height:400px;
@@ -78,19 +77,8 @@
   position:absolute;
   top:100px;
 }
-.form-container select {
-  width: auto; /* Allow dropdown to expand naturally */
-  min-width: 180px; /* Prevent shrinking */
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  white-space: nowrap; /* Prevent text from wrapping */
-  position: relative; /* Ensure dropdown doesn't overlap */
-}
 .form-container div,
+.form-container select,
 .form-container label,
 .form-container input,
 .form-container textarea {
@@ -111,15 +99,11 @@
 }
 
 .form-container input:focus,
+.form-container select:focus,
 .form-container textarea:focus {
     outline: none; /* Remove default outline */
     border-color: #007bff; /* Highlight border on focus */
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
-}
-.form-container select:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .dndbutton {
@@ -143,28 +127,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: nowrap; /* Ensures responsiveness */
+  flex-wrap: wrap; /* Ensures responsiveness */
   gap: 30px; /* Space between dropdowns */
   width: 100%;
 }
 
-.form-container .slect_brand,
-.form-container .slect_sub_cat,
-.form-container .select_catergeory {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form-container .slect_brand{
+  position:absolute;
+  left:20px;
+
 }
-.form-container option {
-  background-color: white;
-  padding: 10px;
+.form-container .slect_sub_cat{
+  position:absolute;
+  left:300px;
+}
+.form-container .select_catergeory{
+  position:absolute;
+  left:600px;
 }
 
 
 @media (max-width: 600px) {
   .form-container {
-    margin-top: 20px;
+      margin-top: 20px;
       width:87vw; /* Ensure space on both sides */
       padding: 15px;
       height: auto;
