@@ -1434,6 +1434,10 @@ justify-content: space-around;
             object-fit: cover;
             background-color: white;
         }
+
+        .whatsapp_mobile{
+            margin-top: 10px;
+        }
 }
 
 @media (min-width: 601px) {
