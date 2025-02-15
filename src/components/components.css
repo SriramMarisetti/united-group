@@ -1128,7 +1128,7 @@ justify-content: space-around;
     .about_us{
         width: auto;
         margin: 10px;
-        height:150vh;
+        height:130vh;
         overflow: hidden;
         box-sizing: border-box;
         border-radius: 10px;
@@ -1144,9 +1144,11 @@ justify-content: space-around;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 10px; 
+        margin-left:0;
     }
     .abt_txt{
-        width: auto;
+        width:auto;
+        margin-left: 0;
     }
     
     .united_suggestion{
