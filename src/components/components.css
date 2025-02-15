@@ -14,33 +14,39 @@ margin:auto;
     border-radius: 10px;
     margin-top:8px;
 }
-.header .logo{
-    width:15%;
-    height:70px;
+.header .logo { 
+    width: auto;  /* Adjust width dynamically */
+    height: 80px; /* Slightly increased height */
     background-color: white;
-    border-radius:8px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px 10px; /* Added padding */
 }
-.header .logo .navlink_logo{
-    width:15%;
-    height:70px;
+
+.header .logo .navlink_logo {
+    width: auto;
+    height: 100%; /* Full height for better alignment */
     background-color: white;
-    border-radius:8px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     letter-spacing: 2px;
+    padding: 5px 10px; /* Match parent padding */
 }
-.logo img{
-    width:70px;
-    height:70px;
-    object-fit: cover;
+
+.logo img {
+    width: 100%; /* Adjust width dynamically */
+    max-width: 70px; /* Restrict max width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Prevent cropping */
     background-color: white;
     border-radius: 10px;
 }
+
 .header .navlinks{
     width:55%;
     height:70px;
