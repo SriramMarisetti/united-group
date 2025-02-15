@@ -140,10 +140,12 @@
 .form-container .slect_sub_cat{
   position:absolute;
   left:300px;
+  top: 100px;
 }
 .form-container .select_catergeory{
   position:absolute;
   left:600px;
+  top: 100px;
 }
 
 
