@@ -1183,7 +1183,38 @@ justify-content: space-around;
         letter-spacing: 1px;
         font-size: 2rem; /* Uses rem for better responsiveness */
     }
-    
+    .buying_info .paragraph {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+        width: 95%; /* Adjust width for smaller screens */
+        height: auto; /* Allow dynamic height */
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:5px;
+        margin-bottom: 5px;
+        gap: 10px; 
+    }
+
+    .info_img .buying_info .paragraph p {
+        font-size: 10px; /* Slightly reduce font size */
+        padding: 8px; /* Increase padding for better spacing */
+        border-radius: 15px; /* Ensure consistent rounded corners */
+        text-align: left; /* Align text to the left */
+    }
+
+    .info_img .buying_info .paragraph p svg {
+        margin-right: 8px; /* Add spacing between the icon and text */
+    }
+
+    .info_img .buying_info .paragraph p:nth-child(odd),
+    .info_img .buying_info .paragraph p:nth-child(even) {
+        width:auto; /* Full width for better alignment */
+        display: flex;
+        justify-content: flex-start; /* Align text and icons to the left */
+        align-items: center;
+        flex-wrap: wrap; /* Prevent content from breaking */
+    }
+
+
     .info_img {
         display: flex;
         flex-direction: column;
