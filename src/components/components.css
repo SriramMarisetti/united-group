@@ -1440,8 +1440,8 @@ justify-content: space-around;
                 grid-template-columns: 1fr; /* Change to a single column layout */
                 width: 95%; /* Adjust width for smaller screens */
                 height: auto; /* Allow dynamic height */
-                margin-left: auto;
-                margin-right: auto;
+                margin-left:auto;
+                margin-right:auto;
                 margin-top:5px;
                 margin-bottom: 5px;
                 gap: 10px; /* Increase gap for better spacing */
@@ -1449,12 +1449,11 @@ justify-content: space-around;
         
             .info_img .buying_info .paragraph p {
                 width:auto; /* Ensure full width */
-                font-size: 12px; /* Slightly reduce font size */
+                font-size: 10px; /* Slightly reduce font size */
                 padding: 8px; /* Increase padding for better spacing */
                 border-radius: 15px; /* Ensure consistent rounded corners */
                 text-align: left; /* Align text to the left */
-                display: flex;
-                justify-content: flex-start; /* Align content to the left */
+/* Align content to the left */
             }
         
             .info_img .buying_info .paragraph p svg {
