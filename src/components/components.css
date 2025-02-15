@@ -27,7 +27,7 @@ margin:auto;
 
 .header .logo .navlink_logo {
     width: auto;
-    height: 100%; /* Full height for better alignment */
+    height: 90%; /* Full height for better alignment */
     background-color: white;
     border-radius: 8px;
     display: flex;
