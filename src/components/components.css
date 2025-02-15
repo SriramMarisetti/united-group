@@ -758,7 +758,7 @@ form .solbutton {
     color:#ffffff;
     font-weight: normal;
     width:fit-content;
-    padding:5px;
+    padding:10px;
     border-radius:20px;
     text-align: left;
     display: flex;
@@ -771,6 +771,7 @@ form .solbutton {
     font-size: 14px;
     color:#ffffff;
     font-weight: 900;
+    margin-right:5px;
 }
 .info_img .buying_info .paragraph p:nth-child(even){
     background-color: #8f1718;
@@ -779,7 +780,7 @@ form .solbutton {
     color:#ffffff;
     font-weight: normal;
     width:fit-content;
-    padding:3px;
+    padding:10px;
     border-radius:30px;
     text-align: left;
     display: flex;
@@ -792,6 +793,7 @@ form .solbutton {
     font-size: 14px;
     color:#ffffff;
     font-weight: 900;
+    margin-right: 10px;
 }
 .buying_info p{
     background-color: #ffffff;
