@@ -1284,13 +1284,8 @@ justify-content: space-around;
         from { opacity: 0.2; }
         to { opacity: 1; }
       }
-    
-    
-      
-      
-
-
-      
+          
+       
             .Testimonial {
                 width: 95%;
                 height: auto;
@@ -1451,14 +1446,13 @@ justify-content: space-around;
             }
         
             .info_img .buying_info .paragraph p {
-                width: 100%; /* Ensure full width */
+                width:;auto /* Ensure full width */
                 font-size: 12px; /* Slightly reduce font size */
                 padding: 8px; /* Increase padding for better spacing */
                 border-radius: 15px; /* Ensure consistent rounded corners */
                 text-align: left; /* Align text to the left */
                 display: flex;
                 justify-content: flex-start; /* Align content to the left */
-                align-items: center;
             }
         
             .info_img .buying_info .paragraph p svg {
@@ -1467,7 +1461,7 @@ justify-content: space-around;
         
             .info_img .buying_info .paragraph p:nth-child(odd),
             .info_img .buying_info .paragraph p:nth-child(even) {
-                width: 100%; /* Full width for better alignment */
+                width:auto; /* Full width for better alignment */
                 display: flex;
                 justify-content: flex-start; /* Align text and icons to the left */
                 align-items: center;
