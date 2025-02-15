@@ -382,6 +382,7 @@ flex-direction: column;
 }
 .about_us .abt_title{
     margin-top:15px;
+    margin-left:10px;
     margin-right:10px;
     background-color: white;
     color: black;
@@ -394,13 +395,11 @@ flex-direction: column;
     font-weight:bold;
     font-size: 40px;
     margin-top:15px;
-    margin-left: 10px;
 }
 .abt_title h2{
     background-color: white;
     color: #161a53;
     margin-top:0px;
-    margin-left: 10px;
 }
 .abt_title h2 b{
     background-color: white;
