@@ -1453,7 +1453,7 @@ justify-content: space-around;
             font-size: 12px; /* Slightly reduce font size */
             padding: 8px; /* Increase padding for better spacing */
             border-radius: 15px; /* Ensure consistent rounded corners */
-            text-align: center; /* Center text for better readability */
+            text-align:start; /* Center text for better readability */
         }
     
         .info_img .buying_info .paragraph p:nth-child(odd),
