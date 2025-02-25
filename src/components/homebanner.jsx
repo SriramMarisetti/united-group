@@ -36,7 +36,6 @@ function Homebanner() {
             <img src={ua_logo_black1} alt="" />
           </div>
           <div className="uni_fin_descrip text_descrip">
-            <h1>united finance &nbsp; & leasing corporation</h1>
             <h4>Estd 1985 a Financial Investment Wing</h4>
           </div>
           </section>
@@ -46,7 +45,6 @@ function Homebanner() {
           <img src={ua_logo_black2} alt="" />
           </div>
           <div className="uni_enter_descrip text_descrip">
-            <h1>united enterprises</h1>
             <h4>Estd in 1992 our Real Estate wing</h4>
           </div>
           </section>
