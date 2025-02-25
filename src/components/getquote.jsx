@@ -31,8 +31,8 @@ const Getquote = () => {
   return (
     <div className="getquotation">
       <label htmlFor="email" className="label_name">Leave a Request</label>
-
       <form ref={form} onSubmit={sendEmail}>
+      <div className="form-container-getquote">
         <div className="name_input">
           <AiOutlineUser />
           <input id="email" name="email" type="email" placeholder="Enter Your Email" required />
@@ -42,7 +42,7 @@ const Getquote = () => {
           <BsTelephone />
           <input id="phone" name="phone" placeholder="Enter Your Number" required />
         </div>
-
+        </div>
         <button type="submit" className="solbutton">
           <TbHandClick /> For Clear Solutions
         </button>

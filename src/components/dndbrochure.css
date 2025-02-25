@@ -135,17 +135,20 @@
 .form-container .slect_brand{
   position:absolute;
   left:20px;
+  width: 200px;
 
 }
 .form-container .slect_sub_cat{
   position:absolute;
   left:300px;
   top: 100px;
+  width: 200px;
 }
 .form-container .select_catergeory{
   position:absolute;
   left:600px;
   top: 100px;
+  width: 200px;
 }
 
 

@@ -4,6 +4,12 @@ list-style: none;
 margin:auto;
 }
 
+.form-container-getquote{
+    display: flex;
+    flex-direction: column;
+}
+
+
 svg{
     margin: 0px!important;
 }
@@ -556,7 +562,7 @@ form .email_input{
 .name_input input,
 .email_input input {
     background-color: white;
-    width:100%;
+    width:40%;
     border-radius: 8px;
     border: none;
     padding: 10px; /* Reduce padding */
@@ -1258,6 +1264,7 @@ justify-content: space-around;
 
     .name_input input,
     .email_input input {
+        width: 80%;
         padding: 12px;
         font-size: 16px;
     }
@@ -1481,5 +1488,9 @@ justify-content: space-around;
         left: 50%;
         transform: translate(-50%, -50%);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .form-container-getquote{
+        display: flex;
+        flex-direction: row;
     }
 }
