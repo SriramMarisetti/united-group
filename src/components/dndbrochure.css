@@ -155,7 +155,7 @@
 @media (max-width: 600px) {
   .form-container {
       margin-top: 20px;
-      width:87vw; /* Ensure space on both sides */
+      width:87vw;
       padding: 15px;
       height: auto;
   }
@@ -168,7 +168,7 @@
   .form-container div {
       width: 100%;
       margin-bottom: 10px;
-      position: static; /* Remove absolute positioning */
+      position: static;
   }
 
   .form-container .slect_brand,
