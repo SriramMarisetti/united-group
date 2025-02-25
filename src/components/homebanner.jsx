@@ -2,8 +2,8 @@ import React from 'react';
 import './components.css';
 import uhc_logo_black from '../components/Assets/uhc_logo_black.png';
 import ua_logo_black from '../components/Assets/ua_logo_black.png';
-import ua_logo_black1 from '../components/Assets/1.png';
-import ua_logo_black2 from '../components/Assets/2.png';
+import ua_logo_black1 from '../components/Assets/2bg.png';
+import ua_logo_black2 from '../components/Assets/1bg.png';
 
 function Homebanner() {
   return (
@@ -32,7 +32,7 @@ function Homebanner() {
           </section>
 
           <section className="cologs">
-          <div className="ua_logo">
+          <div className="ua_logo1">
             <img src={ua_logo_black1} alt="" />
           </div>
           <div className="uni_fin_descrip text_descrip">
@@ -41,8 +41,8 @@ function Homebanner() {
           </section>
 
           <section className="cologs">
-          <div className="ua_logo">
-          <img src={ua_logo_black2} alt="" />
+          <div className="ua_logo1">
+          <img src={ua_logo_black2} alt="" style={{height:"80px"}}/>
           </div>
           <div className="uni_enter_descrip text_descrip">
             <h4>Estd in 1992 our Real Estate wing</h4>

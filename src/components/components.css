@@ -337,6 +337,18 @@ flex-direction: column;
     object-fit: cover;
     background-color: transparent;
 }
+
+.ua_logo1 img{
+    height:80px;
+    object-fit: cover;
+    background-color: transparent;
+}
+.ua_logo1 img{
+    height:80px;
+    object-fit: cover;
+    background-color: transparent;
+}
+
 .cologs .text_descrip{
     width:300px;
     height:80px;
