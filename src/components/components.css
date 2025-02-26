@@ -575,7 +575,7 @@ form .email_input{
 .name_input input,
 .email_input input {
     background-color: white;
-    width:60%;
+    width:70%;
     border-radius: 8px;
     border: none;
     padding: 10px; /* Reduce padding */
