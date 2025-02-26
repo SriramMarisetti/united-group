@@ -582,7 +582,7 @@ form .email_input{
 }
 
 form input::placeholder{
-    font-size:10px;
+    font-size:15px;
     font-weight: bold;
 
 }
