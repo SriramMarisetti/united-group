@@ -13,8 +13,8 @@ const Getquote = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_84m7vgl", "template_gldhvfm", form.current, {
-        publicKey: "EQngmiK-Q46ZDV69i",
+      .sendForm("service_2lip0zf", "template_mwxw5vm", form.current, {
+        publicKey: "4D3L21PEDp_9n_QAQ",
       })
       .then(
         () => {
